@@ -1,0 +1,316 @@
+body{
+    background-color: rgb(246, 241, 241);
+    font-family: sans-serif;
+}
+.features{
+    text-align: center;
+}
+.container{
+    padding-left: 20px;
+}
+
+.features header h1{
+    text-align: center;
+    padding: 10px ;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: arial;
+    color: #444;
+}
+.features header h2{
+    color: #777;
+    text-align: center;
+    padding: 20px 0;
+}
+.table1{
+border: 1px solid #ddd;
+display: inline-block;
+width: 260px;
+height: 400px;
+padding: 40px 0 70px 0;
+margin-right: 30px;
+margin-top: 40px;
+text-align: left;
+}
+.features h3{
+    padding: 10px 0 10px 30px;
+    font-weight: 900;
+
+}
+.features .table1 h4{
+    padding: 10px 0 10px 30px;
+    font-weight: 1000;
+}
+.features .table1 .h4{
+    font-size: 35px;
+    color: #444;
+}
+.features .table1 .h4 .bara{
+    font-size: 23px;
+}
+.features .table1 .month{
+    font-size: 15px;
+    padding-left: 1px;
+}
+.features .table1 p{
+    padding: 10px 0 30px 30px;
+    color: #777;
+    border-bottom: 1px solid #777;
+    font-size: 13px;
+}
+
+.principal-list li::before{
+    content: "✔";
+    color: #25d25e;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'FontAwesome';
+}
+.principal-list li::before{
+    list-style-type: "x";
+}
+.principal-list .red::before{
+    content: "❌";
+    color: #dc3545;
+    font-size: 12px;
+    border: none;
+}
+.principal-list li{
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+ul{
+    padding:10px 0 0 0;
+}
+.features .table1 .btn{
+    border-radius: 30px;
+    width: 110px;
+    height:50px;
+    font-size: 11px;
+    font-weight: 600;
+    color:white;
+    margin-left: 25px;
+    margin-top: 30px;
+    padding: 15px 18px;
+    background-color: rgb(62, 89, 245);
+    border: none;
+    cursor: pointer;
+}
+.features .table1 .btn:hover{
+    box-shadow: 0px 10px 10px 10px rgb(228, 226, 226);
+    transition: 1s;
+}
+
+.table2{
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 260px;
+    height: 400px;
+    padding: 40px 0 70px 0;
+    margin-right: 30px;
+    margin-top: 40px;
+    background-color: #026ada;
+    color: white;
+    text-align: left;
+    }
+    .features .table2 h3{
+        padding: 10px 0 10px 30px;
+        font-weight: 900;
+    }
+    .features .table2 h4{
+        padding: 10px 0 10px 30px;
+        font-weight: 1000;
+    }
+    .features .table2 .h4{
+        font-size: 35px;
+        color: white;
+    }
+    .features .table2 .h4 .bara{
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .features .table2 .month{
+        font-size: 15px;
+        padding-left: 1px;
+    }
+    .features .table2 p{
+        padding: 10px 0 30px 30px;
+        color: white;
+        border-bottom: 1px solid #777;
+        font-size: 13px;
+
+    }
+    .principal-list .table2 li{
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        padding-left: 20px;
+        margin-top: 7px;
+    }
+    .features .table2 ul{
+        padding:10px 0 0 0;
+    }
+    .features .table2 .btn{
+        border-radius: 30px;
+        width: 110px;
+        height:50px;
+        font-size: 11px;
+        font-weight: 600;
+        color:#444;
+        margin-left: 25px;
+        margin-top: 30px;
+        padding: 15px 18px;
+        background-color:white;
+        border: none;
+        cursor: pointer;
+    }
+    .features .table2 .btn:hover{
+        box-shadow: 0px 10px 10px 10px rgb(48, 120, 193);
+        transition: 1s;
+    }
+    
+    
+    
+    .table3{
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 260px;
+    height: 400px;
+    padding: 40px 0 70px 0;
+    margin-right: 30px;
+    margin-top: 40px;
+    background-color:white;
+    color: #444;
+    text-align: left;
+    }
+    .features .table3 h3{
+        padding: 10px 0 10px 30px;
+        font-weight: 900;
+    }
+    .features .table3 h4{
+        padding: 10px 0 10px 30px;
+        font-weight: 1000;
+    }
+    .features .table3 .h4{
+        font-size: 35px;
+        color: #444;
+    }
+    .features .table3 .h4 .bara{
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .features .table3 .month{
+        font-size: 15px;
+        padding-left: 1px;
+    }
+    .features .table3 p{
+        padding: 10px 0 30px 30px;
+        color: #777;
+        border-bottom: 1px solid #777;
+        font-size: 13px;
+
+    }
+    .principal-list .table3 li{
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        padding-left: 20px;
+        margin-top: 7px;
+    }
+    .features .table3 ul{
+        padding:10px 0 0 0;
+    }
+    .features .table3 .btn{
+        border-radius: 30px;
+        width: 110px;
+        height:50px;
+        font-size: 11px;
+        font-weight: 600;
+        color:white;
+        margin-left: 25px;
+        margin-top: 30px;
+        padding: 15px 18px;
+        background-color: rgb(62, 89, 245);
+        border: none;
+        cursor: pointer;
+    }
+    .features .table3 .btn:hover{
+        box-shadow: 0px 10px 10px 10px rgb(228, 226, 226);
+        transition: 1s;
+    }
+
+
+    .table4{
+        border: 1px solid #ddd;
+        display: inline-block;
+        width: 260px;
+        height: 400px;
+        padding: 40px 0 70px 0;
+        margin-right: 30px;
+        margin-top: 40px;
+        background-color:white;
+        color: #444;
+        text-align: left;
+        }
+        .features .table4 h3{
+            padding: 10px 0 10px 30px;
+            font-weight: 900;
+        }
+        .features .table4 h4{
+            padding: 10px 0 10px 30px;
+            font-weight: 1000;
+        }
+        .features .table4 .h4{
+            font-size: 35px;
+            color: #444;
+        }
+        .features .table4 .h4 .bara{
+            font-size: 23px;
+            padding-left: 15px;
+        }
+        .features .table4 .month{
+            font-size: 15px;
+            padding-left: 1px;
+        }
+        .features .table4 p{
+            padding: 10px 0 30px 30px;
+            color: #777;
+            border-bottom: 1px solid #777;
+            font-size: 13px;
+
+        }
+        .principal-list .table4 li{
+            padding-bottom: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            padding-left: 20px;
+            margin-top: 7px;
+        }
+        .features .table4 ul{
+            padding:10px 0 0 0;
+        }
+        .features .table4 .btn{
+            border-radius: 30px;
+            width: 110px;
+            height:50px;
+            font-size: 11px;
+            font-weight: 600;
+            color:white;
+            margin-left: 25px;
+            margin-top: 30px;
+            padding: 15px 18px;
+            background-color: rgb(62, 89, 245);
+            border: none;
+            cursor: pointer;
+        }
+        .features .table4 .btn:hover{
+            box-shadow: 0px 10px 10px 10px rgb(228, 226, 226);
+            transition: 1s;
+        }
+
+
+
+
